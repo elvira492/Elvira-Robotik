@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position:fixed;
+    width: 100vw;
+    height: 20%;
+
+    
+}
+
+/* HEADER1 */
+.header1{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1.8rem 1rem;
+} /* weiße Zeile Header */
+header ul {
+    display: flex;
+    justify-content: end;
+    gap: 0.3rem;
+    list-style: none;
+}
+li{
+    border-right: 1px solid rgb(37, 37, 37);
+    padding-right: 0.3rem;
+}
+li:nth-of-type(6){
+   border-right: none;
+}
+
+.Logo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: rgb(2, 129, 189);
+    font-weight: bold;
+    font-style: italic;
+} /* Nabtesko LOGO */
+
+/* HEADER2 */
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(11, 153, 219, 0.699);
+}
+
+/* MAIN */
+main{
+    width: 100vw;
+    
+}
+.hintergrund{
+    background-image: url(./img/csm_20211026_header_Robotik_b840ea20aa.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 17vh; 
+    }
+
+.Robotik {
+    background-color: rgba(240, 248, 255, 0.801);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+} /* fürs Zentrieren von weisem Hintergrund mit text:     
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
